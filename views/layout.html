@@ -10,8 +10,19 @@
 	<meta name="robots" content="all,follow" />
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico')}
+
+    <link rel="shortcut icon" href="flat-ui/images/favicon.ico">
+    <link rel="stylesheet" href="flat-ui/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+    <!-- Using only with Flat-UI (free)-->
+    <link rel="stylesheet" href="common-files/css/icon-font.css">
+    <!-- end -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="page-wrapper">
+
+
 
 	<div class="container-background">
 		<div class="container">
@@ -22,7 +33,7 @@
 			@{body}
 		</div>
 	</div>
-	
+
         <!-- footer-3 -->
         <footer class="footer-3" id="Contact">
             <div class="container">
@@ -44,6 +55,16 @@
                 </div>
             </div>
         </footer>
+    </div>
 
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="common-files/js/jquery-1.10.2.min.js"></script>
+    <script src="flat-ui/js/bootstrap.min.js"></script>
+    <script src="common-files/js/modernizr.custom.js"></script>
+    <script src="common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="common-files/js/jquery.parallax.min.js"></script>
+    <script src="common-files/js/startup-kit.js"></script>
+    <script src="js/jquery.backgroundvideo.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
