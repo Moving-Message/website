@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="format-detection" content="telephone=no" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1.0, user-scalable=no" />
+	 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="robots" content="all,follow" />
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico')}
@@ -20,9 +22,28 @@
 			@{body}
 		</div>
 	</div>
-	<footer>
-		Thank you for using <b>Total.js</b>.
-	</footer>
+	
+        <!-- footer-3 -->
+        <footer class="footer-3" id="Contact">
+            <div class="container">
+                <div class="row v-center">
+                    <div class="col-sm-3">
+                        <a class="brand" href="#">MovingMessage B.V.</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="additional-links">
+                            Be sure to take a look to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6>info@movingmessage.nl</h6>
+                        <div class="address">
+                            Schoolstraat 12<br>8746 NH Schraard, Netherlands
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 </body>
 </html>
