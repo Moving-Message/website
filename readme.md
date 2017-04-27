@@ -16,7 +16,7 @@ In a project (e.g. website-165916) on Google Cloud Platform (https://console.clo
 type:
 
 ```javascript
-CLONETODIR=~/src/website-165916/totaljs-gruniart
+CLONETODIR=~/src/website-165916/website
 ```
 
 next type:
