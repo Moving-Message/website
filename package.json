@@ -1,0 +1,38 @@
+{
+  "name": "totaljs-gruniart",
+  "version": "1.0.0",
+  "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
+  "private": true,
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "lint": "samples lint",
+    "pretest": "npm run lint",
+    "system-test": "samples test app",
+    "test": "npm run system-test",
+    "e2e-test": "samples test deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruni-art/totaljs-gruniart.git"
+  },
+  "cloud": {
+    "msg": "Hello, world!"
+  },  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gruni-art/totaljs-gruniart/issues"
+  },
+  "homepage": "https://github.com/gruni-art/totaljs-gruniart#readme",
+  "dependencies": {
+    "express": "4.15.2",
+    "total.js": "^2.5.0"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.3.1"
+  },  
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
