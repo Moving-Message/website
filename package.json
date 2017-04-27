@@ -1,5 +1,5 @@
 {
-  "name": "totaljs-gruniart",
+  "name": "website",
   "version": "1.0.0",
   "description": "[![Support](https://www.totaljs.com/img/button-support.png)](https://www.totaljs.com/support/)",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gruni-art/totaljs-gruniart.git"
+    "url": "git+https://github.com/Moving-Message/website.git"
   },
   "cloud": {
     "msg": "Hello, world!"
@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gruni-art/totaljs-gruniart/issues"
+    "url": "https://github.com/Moving-Message/website/issues"
   },
-  "homepage": "https://github.com/gruni-art/totaljs-gruniart#readme",
+  "homepage": "https://github.com/Moving-Message/website#readme",
   "dependencies": {
     "express": "4.15.2",
     "total.js": "^2.5.0"
