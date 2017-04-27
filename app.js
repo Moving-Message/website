@@ -29,7 +29,7 @@ var PORT = process.env.PORT || 8080;
 var fs = require('fs');
 var options = {};
 // options.ip = 'auto';
-options.author = 'MovingMessage';
+options.company = 'MovingMessage';
 options.port = PORT;
 var framework = require('total.js');
 framework.http('release', options);
